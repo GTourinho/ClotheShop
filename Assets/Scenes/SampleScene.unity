@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 1551815521}
   - component: {fileID: 1551815520}
   m_Layer: 0
-  m_Name: Tilemap (1)
+  m_Name: CollisionTiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3559,6 +3559,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1818628760720563768, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: collisionOffset
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818628760720563768, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: movementFilter.layerMask.m_Bits
       value: 1
       objectReference: {fileID: 0}
@@ -3609,6 +3613,30 @@ PrefabInstance:
     - target: {fileID: 8659733407548139970, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733407548139971, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733407691847491, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733407916786147, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733407919911332, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733408567773899, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659733408799025828, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
