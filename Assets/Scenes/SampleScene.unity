@@ -3566,6 +3566,30 @@ PrefabInstance:
       propertyPath: movementFilter.layerMask.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1838523923480101378, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2614697, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - target: {fileID: 2337763349639555310, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: hair
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623698391180147242, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_SpriteKey
+      value: -2.8422534e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3340734897778172879, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: shoes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737322395317591990, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324442376632373419, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: shirt
+      objectReference: {fileID: 0}
     - target: {fileID: 8659733407548139968, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3615,6 +3639,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8659733407548139971, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 211644339, guid: 8e051e7f3d38c144dba3ea9c0b0bed9d, type: 3}
+    - target: {fileID: 8659733407548139971, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -3637,6 +3665,10 @@ PrefabInstance:
     - target: {fileID: 8659733408799025828, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217690567355609992, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: pants
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
