@@ -93,7 +93,6 @@ public class PlayerController : MonoBehaviour, IShopCustomer
 
     public void BoughtItem(string itemName)
     {
-        UnityEditor.AssetDatabase.Refresh();
         SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
         hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
     }

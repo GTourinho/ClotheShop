@@ -597,7 +597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CategoryHash: 0
   m_labelHash: 0
-  m_SpriteKey: -5.950011e+33
+  m_SpriteKey: -5.851116e-25
 --- !u!114 &1095184663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4510,7 +4510,7 @@ PrefabInstance:
     - target: {fileID: 1106921879123014173, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 353690445, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      objectReference: {fileID: -717803152, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
     - target: {fileID: 1647547480529402261, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_SpriteLibraryAsset
       value: 
@@ -4526,7 +4526,7 @@ PrefabInstance:
     - target: {fileID: 1838523923480101378, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1579595040, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      objectReference: {fileID: 1152171017, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
     - target: {fileID: 2337763349639555310, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Name
       value: hair
@@ -4538,7 +4538,7 @@ PrefabInstance:
     - target: {fileID: 2923089282026090463, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -826962172, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      objectReference: {fileID: 508085916, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
     - target: {fileID: 3340734897778172879, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Name
       value: shoes
@@ -4546,15 +4546,15 @@ PrefabInstance:
     - target: {fileID: 4211397892376678662, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1634362050, guid: 6feac05dd36fdf74ab81db3b3dad76d3, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4211397892376678662, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5823758207152433973, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1860277845, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      objectReference: {fileID: 1939123168, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
     - target: {fileID: 6737322395317591990, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Name
       value: eyes
@@ -4618,7 +4618,7 @@ PrefabInstance:
     - target: {fileID: 8659733407548139971, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 339367303, guid: 8e051e7f3d38c144dba3ea9c0b0bed9d, type: 3}
+      objectReference: {fileID: 1950706369, guid: 8e051e7f3d38c144dba3ea9c0b0bed9d, type: 3}
     - target: {fileID: 8659733407548139971, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_SortingOrder
       value: 1
