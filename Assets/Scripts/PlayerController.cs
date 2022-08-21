@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteLibrary = this.transform.Find("hair").GetComponent<SpriteLibrary>();
