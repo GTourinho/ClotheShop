@@ -39,4 +39,56 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 1340952472, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 4
+  - m_Name: WalkUp
+    m_Hash: -1499434170
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_hair1_4
+      m_Hash: -485308772
+      m_Sprite: {fileID: -786177913, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -786177913, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_5
+      m_Hash: -1810500086
+      m_Sprite: {fileID: 1152171017, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1152171017, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_6
+      m_Hash: 219981744
+      m_Sprite: {fileID: 1577281848, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1577281848, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_7
+      m_Hash: 2048628518
+      m_Sprite: {fileID: -604576924, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -604576924, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_hair1_2
+      m_Hash: 175203241
+      m_Sprite: {fileID: 1479073141, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1479073141, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_0
+      m_Hash: -461438331
+      m_Sprite: {fileID: 1579595040, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1579595040, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_1
+      m_Hash: -1820839405
+      m_Sprite: {fileID: 694493296, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 694493296, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    - m_Name: character_hair1_3
+      m_Hash: 2104906559
+      m_Sprite: {fileID: 1289553939, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1289553939, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
   m_PrimaryLibraryGUID: 

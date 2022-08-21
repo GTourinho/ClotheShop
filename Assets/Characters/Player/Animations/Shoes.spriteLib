@@ -39,4 +39,56 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -570538262, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 4
+  - m_Name: WalkUp
+    m_Hash: -1499434170
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shoes1_4
+      m_Hash: 1331810880
+      m_Sprite: {fileID: 1500547282, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1500547282, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_5
+      m_Hash: 946266838
+      m_Sprite: {fileID: 1939123168, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1939123168, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_6
+      m_Hash: -1586515092
+      m_Sprite: {fileID: 1944783658, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1944783658, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_7
+      m_Hash: -697793542
+      m_Sprite: {fileID: -657438007, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -657438007, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shoes1_0
+      m_Hash: 1208751705
+      m_Sprite: {fileID: -955980598, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -955980598, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_1
+      m_Hash: 1057695439
+      m_Sprite: {fileID: 1860277845, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1860277845, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_2
+      m_Hash: -1509787787
+      m_Sprite: {fileID: 1432473068, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1432473068, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_3
+      m_Hash: -788183069
+      m_Sprite: {fileID: -2017406756, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2017406756, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
   m_PrimaryLibraryGUID: 

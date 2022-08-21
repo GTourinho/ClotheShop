@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour, IShopCustomer
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
-    public SpriteLibrary spriteLibrary;
+    public SpriteLibrary hairSpriteLibrary;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     Vector2 movementInput;
     Animator animator;
@@ -21,39 +21,51 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteLibrary = this.transform.Find("hair").GetComponent<SpriteLibrary>();
-        animator.enabled = false;
-        
-        UnityEditor.AssetDatabase.Refresh();
-
-        SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("Hair_2");
-
-        spriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
-
-        animator.enabled = true;
+        hairSpriteLibrary = this.transform.Find("hair").GetComponent<SpriteLibrary>();
         
     }
 
     private void FixedUpdate() {
-
-
-        if(movementInput != Vector2.zero){  
-            bool success = TryMove(movementInput);
-            if(!success){
-                success = TryMove(new Vector2(movementInput.x, 0));
-                if(!success){
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
-            }
-            animator.SetBool("isMoving", success);
-            // get all sprite library assets
-            
-
-
-
-        } else{
-            
+        if(movementInput == Vector2.zero){
             animator.SetBool("isMoving", false);
+        }
+        else{
+            CheckCollision();
+        }
+    }
+    private void CheckCollision(){
+        if(TryMove(movementInput) || TryMove(new Vector2(movementInput.x, 0))){
+                animator.SetBool("isMoving", true);
+                FaceWhichAxis();
+            }
+        else if (TryMove(new Vector2(0, movementInput.y))){
+            FaceUpOrDown();    
+        }
+    }
+    private void FaceWhichAxis(){
+        if(movementInput.x == 0){
+            FaceUpOrDown();
+        }
+        else{
+            FaceLeftOrRight();
+        }
+    }
+
+    private void FaceLeftOrRight(){
+        if(movementInput.x < 0){
+            transform.localScale = new Vector3(-1,1,1);
+        } else if(movementInput.x > 0){
+            transform.localScale = new Vector3(1,1,1);
+        }
+        animator.SetBool("FaceUp", false);
+        animator.SetBool("FaceDown", false);
+    }
+    private void FaceUpOrDown(){
+        if(movementInput.y > 0){
+            animator.SetBool("FaceUp", true);
+        }
+        else{
+            animator.SetBool("FaceDown", true);
         }
     }
 
@@ -79,6 +91,8 @@ public class PlayerController : MonoBehaviour, IShopCustomer
 
     public void BoughtItem(string itemName)
     {
-        throw new System.NotImplementedException();
+        UnityEditor.AssetDatabase.Refresh();
+        SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
+        hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
     }
 }

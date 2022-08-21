@@ -39,4 +39,56 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 261392346, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 4
+  - m_Name: WalkUp
+    m_Hash: -1499434170
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_pant1_4
+      m_Hash: 543725561
+      m_Sprite: {fileID: 1690386136, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1690386136, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_5
+      m_Hash: 1466935151
+      m_Sprite: {fileID: 508085916, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 508085916, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_6
+      m_Hash: -832112939
+      m_Sprite: {fileID: 1271512909, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1271512909, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_7
+      m_Hash: -1184774589
+      m_Sprite: {fileID: 1066312361, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1066312361, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_pant1_0
+      m_Hash: 654660576
+      m_Sprite: {fileID: 1419087303, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1419087303, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_1
+      m_Hash: 1342333814
+      m_Sprite: {fileID: -826962172, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -826962172, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_2
+      m_Hash: -922012980
+      m_Sprite: {fileID: 573981420, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 573981420, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    - m_Name: character_pant1_3
+      m_Hash: -1106509222
+      m_Sprite: {fileID: 1892949019, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1892949019, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
   m_PrimaryLibraryGUID: 

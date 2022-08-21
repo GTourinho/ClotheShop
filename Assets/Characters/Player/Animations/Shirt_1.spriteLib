@@ -39,4 +39,56 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -1354715108, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 4
+  - m_Name: WalkUp
+    m_Hash: -1499434170
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shirt1_4
+      m_Hash: -701545866
+      m_Sprite: {fileID: -1613866900, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1613866900, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_5
+      m_Hash: -1591184672
+      m_Sprite: {fileID: -717803152, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -717803152, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_6
+      m_Hash: 941695834
+      m_Sprite: {fileID: -138873562, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -138873562, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_7
+      m_Hash: 1327895500
+      m_Sprite: {fileID: -372566175, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -372566175, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shirt1_0
+      m_Hash: -784169361
+      m_Sprite: {fileID: 536460031, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 536460031, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_1
+      m_Hash: -1505380615
+      m_Sprite: {fileID: 353690445, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 353690445, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_2
+      m_Hash: 1062004547
+      m_Sprite: {fileID: 2003546178, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2003546178, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    - m_Name: character_shirt1_3
+      m_Hash: 1212930005
+      m_Sprite: {fileID: -593866289, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -593866289, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
   m_PrimaryLibraryGUID: 
