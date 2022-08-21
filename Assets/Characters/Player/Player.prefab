@@ -521,7 +521,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  spriteLibrary: {fileID: 0}
+  hairSpriteLibrary: {fileID: 0}
 --- !u!50 &6873779501962947624
 Rigidbody2D:
   serializedVersion: 4
@@ -628,6 +628,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8779511714864402878}
   - component: {fileID: 2923089282026090463}
+  - component: {fileID: 7012827588568648958}
+  - component: {fileID: 8652158690062583970}
   m_Layer: 0
   m_Name: character_pant1_0
   m_TagString: Untagged
@@ -691,7 +693,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1419087303, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
+  m_Sprite: {fileID: -628607453, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -702,3 +704,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7012827588568648958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217690567355609992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: d7a58c9d50b226346abbabac8d9b7902, type: 3}
+--- !u!114 &8652158690062583970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217690567355609992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: -6.1346456e-23

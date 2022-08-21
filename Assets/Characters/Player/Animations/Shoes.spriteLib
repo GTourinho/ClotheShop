@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: WalkRight
+    m_Hash: 1903684657
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shoes1_8
+      m_Hash: 1188535915
+      m_Sprite: {fileID: 2123006083, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2123006083, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_9
+      m_Hash: 835759869
+      m_Sprite: {fileID: -1023452009, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1023452009, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_10
+      m_Hash: -29422810
+      m_Sprite: {fileID: 2076720473, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2076720473, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    - m_Name: character_shoes1_11
+      m_Hash: -2009580624
+      m_Sprite: {fileID: -570538262, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -570538262, guid: fba6b2e010bf7234f94bc35deada5ef7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: 
