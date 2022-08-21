@@ -63,9 +63,11 @@ public class PlayerController : MonoBehaviour, IShopCustomer
     private void FaceUpOrDown(){
         if(movementInput.y > 0){
             animator.SetBool("FaceUp", true);
+            animator.SetBool("FaceDown", false);
         }
         else{
             animator.SetBool("FaceDown", true);
+            animator.SetBool("FaceUp", false);
         }
     }
 
