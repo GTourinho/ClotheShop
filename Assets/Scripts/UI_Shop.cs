@@ -9,6 +9,7 @@ public class UI_Shop : MonoBehaviour
     
     private Transform container;
     private Transform shopItemTemplate;
+    private IShopCustomer customer;  
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class UI_Shop : MonoBehaviour
     private void Start(){
         Sprite hair_2 = Resources.Load<Sprite>("Icons/Hair2");
         CreateItemButton(hair_2, "Long hair", 100, 0);
+        Hide();
     }
 
     private void CreateItemButton(Sprite sprite, string name, int price, int position)
@@ -33,8 +35,24 @@ public class UI_Shop : MonoBehaviour
         itemTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();
         itemTransform.Find("itemImage").GetComponent<Image>().sprite = sprite;
         itemTransform.GetComponent<Button>().onClick.AddListener(() => {
-            Debug.Log("Clicked on " + name);
+            TryBuyItem(name);
         });
+        
+    }
+
+    private void TryBuyItem(string name)
+    {
+        customer.BoughtItem(name);
+    }
+
+    public void Show(IShopCustomer customer)
+    {
+        this.customer = customer;
+        gameObject.SetActive(true);
+    }
+
+    public void Hide(){
+        gameObject.SetActive(false);
     }
 
 }

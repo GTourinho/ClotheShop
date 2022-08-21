@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.U2D.Animation;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IShopCustomer
 {
 
     public float moveSpeed = 1f;
@@ -77,4 +77,8 @@ public class PlayerController : MonoBehaviour
         movementInput = value.Get<Vector2>();
     }
 
+    public void BoughtItem(string itemName)
+    {
+        throw new System.NotImplementedException();
+    }
 }
