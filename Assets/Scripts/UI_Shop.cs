@@ -19,8 +19,10 @@ public class UI_Shop : MonoBehaviour
     }
 
     private void Start(){
-        Sprite hair_2 = Resources.Load<Sprite>("Icons/Hair2");
-        CreateItemButton(hair_2, "Long hair", 100, 0);
+        Sprite longHair = Resources.Load<Sprite>("Icons/Long Hair");
+        Sprite shortHair = Resources.Load<Sprite>("Icons/Short Hair");
+        CreateItemButton(longHair, "Long Hair", 100, 0);
+        CreateItemButton(shortHair, "Short Hair", 80, 1);
         Hide();
     }
 
@@ -29,7 +31,7 @@ public class UI_Shop : MonoBehaviour
         Transform itemTransform = Instantiate(shopItemTemplate, container);
         itemTransform.gameObject.SetActive(true);
         RectTransform itemRectTransform = itemTransform.GetComponent<RectTransform>();
-        float itemHeight = 30f;
+        float itemHeight = 100f;
         itemRectTransform.anchoredPosition = new Vector2(0, -itemHeight * position);
         itemTransform.Find("itemName").GetComponent<TextMeshProUGUI>().text = name;
         itemTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();

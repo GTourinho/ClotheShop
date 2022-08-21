@@ -93,7 +93,11 @@ public class PlayerController : MonoBehaviour, IShopCustomer
 
     public void BoughtItem(string itemName)
     {
+        Debug.Log("Bought "+itemName);
         SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
-        hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        if(itemName == "Long Hair" || itemName == "Short Hair"){
+            
+            hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        }
     }
 }
