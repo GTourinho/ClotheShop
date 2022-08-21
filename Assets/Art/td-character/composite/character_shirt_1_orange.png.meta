@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a0f45f4ce4b61e4aa8c7c2992899ea6
+guid: ab0907573b6585b4cb852bfba91d7654
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_hair2_0
+      name: character_shirt_1_orange_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b17a0a21e9b7e49a2b57264d2e7e74
-      internalID: 1338326122
+      spriteID: 50e5203ecb4e7664087e566595b20cd5
+      internalID: 620244060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_1
+      name: character_shirt_1_orange_1
       rect:
         serializedVersion: 2
         x: 16
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03965f76f81833145ba2f81632ba9dbb
-      internalID: 525375789
+      spriteID: 4ccc0ab2ad50faf43a3599b3988566c6
+      internalID: 2082310520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_2
+      name: character_shirt_1_orange_2
       rect:
         serializedVersion: 2
         x: 32
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9db33fc63de53d43a3474cb53e6dfd7
-      internalID: -785421419
+      spriteID: 5821f2de6b058c94dbb035b1d26d64b7
+      internalID: -1929961453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_3
+      name: character_shirt_1_orange_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 964d5c75b53d00949bca9fa4488316e7
-      internalID: -519097785
+      spriteID: 852dace068e88ab439552669add3dcc1
+      internalID: -493631317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_4
+      name: character_shirt_1_orange_4
       rect:
         serializedVersion: 2
         x: 64
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aafd0e297eb150346ae932857a237174
-      internalID: 184795740
+      spriteID: 6a269a3460ff0f5468f1ef0f8c28b97a
+      internalID: 1394344894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_5
+      name: character_shirt_1_orange_5
       rect:
         serializedVersion: 2
         x: 80
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6943cdf1f8a22fe48b66e35c2524341d
-      internalID: -1419297933
+      spriteID: 666a0df659db01c448b9a86e7eab288b
+      internalID: 100779352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_6
+      name: character_shirt_1_orange_6
       rect:
         serializedVersion: 2
         x: 96
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa1a631435511642959909ab2155b52
-      internalID: -2037347869
+      spriteID: 794fac6d8538fef4895ab90f2df4a4fa
+      internalID: 2003970257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_7
+      name: character_shirt_1_orange_7
       rect:
         serializedVersion: 2
         x: 112
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101308ba7ea651b4bbeb20fc40d3bb94
-      internalID: -242953343
+      spriteID: 1046053542af4ee4c813c6d4e27a967f
+      internalID: 1138164331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_8
+      name: character_shirt_1_orange_8
       rect:
         serializedVersion: 2
         x: 128
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bbbabe449d978e43aeae7d367286097
-      internalID: -223165801
+      spriteID: 0757ed845d9107b4e97c8eff8624b075
+      internalID: -98626597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_9
+      name: character_shirt_1_orange_9
       rect:
         serializedVersion: 2
         x: 144
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da16186657edb424b86834fb2b3f4504
-      internalID: 741270761
+      spriteID: bee94b069d7bb024fa19042ffc4547e4
+      internalID: 2053584402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_10
+      name: character_shirt_1_orange_10
       rect:
         serializedVersion: 2
         x: 160
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a20cfd8bead9a74d98171f402982153
-      internalID: 1250709299
+      spriteID: c397323f3cf549c4e989466fb060b8be
+      internalID: -1310954638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_11
+      name: character_shirt_1_orange_11
       rect:
         serializedVersion: 2
         x: 176
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8294528be1619e4fb7c2c7315a796ca
-      internalID: 1705084789
+      spriteID: ec737dfc58d14d14aabe56a2a2b3e423
+      internalID: 1501254387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_12
+      name: character_shirt_1_orange_12
       rect:
         serializedVersion: 2
         x: 192
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55e2bf5a79027b7408a08dd773732e3c
-      internalID: 487146369
+      spriteID: a0e6c8f3f42f785438fbdccb8ec6e65e
+      internalID: -1077107830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_13
+      name: character_shirt_1_orange_13
       rect:
         serializedVersion: 2
         x: 208
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d1d6074ddbc2d4890adfcb7d667961
-      internalID: 835929331
+      spriteID: badfaad55355b0041b58cce6b70743e2
+      internalID: -1797804420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_14
+      name: character_shirt_1_orange_14
       rect:
         serializedVersion: 2
         x: 224
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df272fc23e39daa4993940a46baefaa6
-      internalID: -19154727
+      spriteID: c313cd1bddd89844db1b0157c8c92bb6
+      internalID: 1639768748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_hair2_15
+      name: character_shirt_1_orange_15
       rect:
         serializedVersion: 2
         x: 240
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38cf49bc14232d9498b154685b16562e
-      internalID: 1715042126
+      spriteID: 26dfcbec4864d3041b8c7f7c57a2c473
+      internalID: -1877465058
       vertices: []
       indices: 
       edges: []
@@ -450,22 +450,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_hair2_3: -519097785
-      character_hair2_9: 741270761
-      character_hair2_8: -223165801
-      character_hair2_11: 1705084789
-      character_hair2_5: -1419297933
-      character_hair2_6: -2037347869
-      character_hair2_14: -19154727
-      character_hair2_13: 835929331
-      character_hair2_15: 1715042126
-      character_hair2_1: 525375789
-      character_hair2_0: 1338326122
-      character_hair2_10: 1250709299
-      character_hair2_7: -242953343
-      character_hair2_2: -785421419
-      character_hair2_12: 487146369
-      character_hair2_4: 184795740
+      character_shirt_1_orange_13: -1797804420
+      character_shirt_1_orange_8: -98626597
+      character_shirt_1_orange_9: 2053584402
+      character_shirt_1_orange_12: -1077107830
+      character_shirt_1_orange_2: -1929961453
+      character_shirt_1_orange_10: -1310954638
+      character_shirt_1_orange_3: -493631317
+      character_shirt_1_orange_0: 620244060
+      character_shirt_1_orange_14: 1639768748
+      character_shirt_1_orange_6: 2003970257
+      character_shirt_1_orange_11: 1501254387
+      character_shirt_1_orange_15: -1877465058
+      character_shirt_1_orange_1: 2082310520
+      character_shirt_1_orange_5: 100779352
+      character_shirt_1_orange_7: 1138164331
+      character_shirt_1_orange_4: 1394344894
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

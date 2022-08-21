@@ -522,6 +522,9 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   hairSpriteLibrary: {fileID: 0}
+  shirtSpriteLibrary: {fileID: 0}
+  pantSpriteLibrary: {fileID: 0}
+  shoeSpriteLibrary: {fileID: 0}
 --- !u!50 &6873779501962947624
 Rigidbody2D:
   serializedVersion: 4

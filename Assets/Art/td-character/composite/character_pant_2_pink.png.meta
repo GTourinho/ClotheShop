@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4927d470315149439ef8800147b4e65
+guid: 1f03638afeb06db43bfc3d3046fc180d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_pant1_0
+      name: character_pant_2_pink_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d5148e407959fe45b059404f79e547f
-      internalID: 1419087303
+      spriteID: f99a5981752c8074d8cf06d03aa73261
+      internalID: -1890678522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_1
+      name: character_pant_2_pink_1
       rect:
         serializedVersion: 2
         x: 16
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8a6f7f6e977baa4e9ef48eefff9e6e0
-      internalID: -826962172
+      spriteID: cd0f32c1ef7cf674db57c58bb65dbb28
+      internalID: 939446464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_2
+      name: character_pant_2_pink_2
       rect:
         serializedVersion: 2
         x: 32
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb163a88d4b2d25438bfb90da9e14072
-      internalID: 573981420
+      spriteID: 7c03b4608a39cb341b4e3088be84ee62
+      internalID: 48902021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_3
+      name: character_pant_2_pink_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1639c9f16563be44b99fae85f843992c
-      internalID: 1892949019
+      spriteID: 9ba73e6660f524341af89fcbdf1405cf
+      internalID: -669549421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_4
+      name: character_pant_2_pink_4
       rect:
         serializedVersion: 2
         x: 64
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4646d069f279648bd596c3f86188d7
-      internalID: 1690386136
+      spriteID: b4319fd24fd786846a0a01efae82facb
+      internalID: 1772140015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_5
+      name: character_pant_2_pink_5
       rect:
         serializedVersion: 2
         x: 80
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be01609fc2721f944a013597b7309d46
-      internalID: 508085916
+      spriteID: 6d413ce515c8e404d92eef64f635c609
+      internalID: -348148567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_6
+      name: character_pant_2_pink_6
       rect:
         serializedVersion: 2
         x: 96
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bedd33e076f1084c8ab46b29f2074ca
-      internalID: 1271512909
+      spriteID: b71bdab0d25996e4e8f25827c846b2f6
+      internalID: 192342040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_7
+      name: character_pant_2_pink_7
       rect:
         serializedVersion: 2
         x: 112
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f18aa35a63a44244abd109371bf439b
-      internalID: 1066312361
+      spriteID: 26bd47e966b8aa342acc13a6f9417530
+      internalID: 1421316713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_8
+      name: character_pant_2_pink_8
       rect:
         serializedVersion: 2
         x: 128
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 946fb5acb807ed94f8a0998b1b894517
-      internalID: 1248415268
+      spriteID: 4dbf9cc6b9ddc234ca2f094dcf61ae28
+      internalID: -2136743793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_9
+      name: character_pant_2_pink_9
       rect:
         serializedVersion: 2
         x: 144
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda13cafc3cceb0488202ad5691ab9ea
-      internalID: -628607453
+      spriteID: 54e85e8fddf429b4ca4e4ce46f21bd6e
+      internalID: 1403034486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_10
+      name: character_pant_2_pink_10
       rect:
         serializedVersion: 2
         x: 160
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b869f0cdb6e917945a86a3513e370705
-      internalID: 108646430
+      spriteID: 375cab4068cede84b87f66ac3257b30a
+      internalID: -1948172867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_11
+      name: character_pant_2_pink_11
       rect:
         serializedVersion: 2
         x: 176
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8368f96c4c090d44a98d8d7d4af2d745
-      internalID: 261392346
+      spriteID: e90a0d43459099b408520fcf363737cd
+      internalID: -969142591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_12
+      name: character_pant_2_pink_12
       rect:
         serializedVersion: 2
         x: 192
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29afa1ea50c5b9840845de92ab52703c
-      internalID: -795453059
+      spriteID: e45c1cc173751e745aeab6500d47e2ae
+      internalID: -773079528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_13
+      name: character_pant_2_pink_13
       rect:
         serializedVersion: 2
         x: 208
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1971ff3aeb59b48468b306ca4470c2c6
-      internalID: 110809801
+      spriteID: 49563745fa417d64b99ac513ce3ab77b
+      internalID: 1677898312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_14
+      name: character_pant_2_pink_14
       rect:
         serializedVersion: 2
         x: 224
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0922da4ba1a99bd4ea5abfe99eb5f9d1
-      internalID: -1730385771
+      spriteID: 64d39ba5735880d4a9297dc2a70b40fc
+      internalID: -2030841719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_pant1_15
+      name: character_pant_2_pink_15
       rect:
         serializedVersion: 2
         x: 240
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c126ea082bd2e084fa3209e706d6a87a
-      internalID: 1219501365
+      spriteID: 1fc3d33bc6e3ad44699515513a4fb1e3
+      internalID: -451618516
       vertices: []
       indices: 
       edges: []
@@ -450,22 +450,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_pant1_12: -795453059
-      character_pant1_9: -628607453
-      character_pant1_13: 110809801
-      character_pant1_15: 1219501365
-      character_pant1_8: 1248415268
-      character_pant1_10: 108646430
-      character_pant1_1: -826962172
-      character_pant1_11: 261392346
-      character_pant1_6: 1271512909
-      character_pant1_0: 1419087303
-      character_pant1_5: 508085916
-      character_pant1_7: 1066312361
-      character_pant1_3: 1892949019
-      character_pant1_14: -1730385771
-      character_pant1_4: 1690386136
-      character_pant1_2: 573981420
+      character_pant_2_pink_15: -451618516
+      character_pant_2_pink_14: -2030841719
+      character_pant_2_pink_5: -348148567
+      character_pant_2_pink_10: -1948172867
+      character_pant_2_pink_11: -969142591
+      character_pant_2_pink_13: 1677898312
+      character_pant_2_pink_12: -773079528
+      character_pant_2_pink_1: 939446464
+      character_pant_2_pink_0: -1890678522
+      character_pant_2_pink_2: 48902021
+      character_pant_2_pink_4: 1772140015
+      character_pant_2_pink_3: -669549421
+      character_pant_2_pink_6: 192342040
+      character_pant_2_pink_8: -2136743793
+      character_pant_2_pink_9: 1403034486
+      character_pant_2_pink_7: 1421316713
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

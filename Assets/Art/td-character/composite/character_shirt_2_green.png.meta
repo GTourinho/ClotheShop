@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24089c2a9e1c82540977759f2258f4a3
+guid: 475e1bd5dd297974293ffed26130e66e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_shoes1_0
+      name: character_shirt_2_green_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef748d2cc7d25049a118b270fbac30e
-      internalID: -955980598
+      spriteID: 838b9ee9f8301634aaa818ff7e69baf2
+      internalID: 1781461802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_1
+      name: character_shirt_2_green_1
       rect:
         serializedVersion: 2
         x: 16
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8da5ef70da2728459e0882052664517
-      internalID: 1860277845
+      spriteID: ba0306b63aac14a44a41b8af50ad5108
+      internalID: -429462691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_2
+      name: character_shirt_2_green_2
       rect:
         serializedVersion: 2
         x: 32
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf1bbde8e7b6f446ba07dab0bd55008
-      internalID: 1432473068
+      spriteID: e8e72a6b2ecfc164fa5b905298995590
+      internalID: -1723835034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_3
+      name: character_shirt_2_green_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72074290680281d4aa2132e0b062bec3
-      internalID: -2017406756
+      spriteID: 73698803faf0d684b9fcad641728c295
+      internalID: 1311839026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_4
+      name: character_shirt_2_green_4
       rect:
         serializedVersion: 2
         x: 64
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb90edcbe0f0659488ae26973ea6bf8e
-      internalID: 1500547282
+      spriteID: cc65dd37cd4759443a781507ff44edbb
+      internalID: 2117669304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_5
+      name: character_shirt_2_green_5
       rect:
         serializedVersion: 2
         x: 80
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a28b9c88b0eaf5439bb89b40029e287
-      internalID: 1939123168
+      spriteID: 5f061260e97c6884a9d5d530bd6b0785
+      internalID: 242755902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_6
+      name: character_shirt_2_green_6
       rect:
         serializedVersion: 2
         x: 96
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0837d3cb5fc3822468a0d0c212c40c31
-      internalID: 1944783658
+      spriteID: 0b8a1543323fd114a9001b13152d3dd7
+      internalID: -779085800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_7
+      name: character_shirt_2_green_7
       rect:
         serializedVersion: 2
         x: 112
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a51bc7dcd058e449998af3495a0828
-      internalID: -657438007
+      spriteID: 870d984d4afde3f48946614651ce2ac3
+      internalID: 104776465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_8
+      name: character_shirt_2_green_8
       rect:
         serializedVersion: 2
         x: 128
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9e22e9388fde93439aa84a1e01cda4a
-      internalID: 2123006083
+      spriteID: ab50ada028092c946b6212f9bc5c7e21
+      internalID: -759677179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_9
+      name: character_shirt_2_green_9
       rect:
         serializedVersion: 2
         x: 144
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1d8a9a23f07d745a4bd90fa651bea3
-      internalID: -1023452009
+      spriteID: eafae69c9b2710243b776fbfeba387c1
+      internalID: 872638190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_10
+      name: character_shirt_2_green_10
       rect:
         serializedVersion: 2
         x: 160
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dea3f0eddf02eb14f899f11a6b751b0a
-      internalID: 2076720473
+      spriteID: 09f929650b4a67244a851feff7ef9aea
+      internalID: -1859820917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_11
+      name: character_shirt_2_green_11
       rect:
         serializedVersion: 2
         x: 176
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b86ed41e22fe55b49ac7f80ba83025f3
-      internalID: -570538262
+      spriteID: 85b95f17fc955f34c9fee9490e27950c
+      internalID: 1721871883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_12
+      name: character_shirt_2_green_12
       rect:
         serializedVersion: 2
         x: 192
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756116d649c8fc947b4b6ebc182e7a0f
-      internalID: 517301237
+      spriteID: c0b538a73032385418d5f0b1bec0959f
+      internalID: 422852609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_13
+      name: character_shirt_2_green_13
       rect:
         serializedVersion: 2
         x: 208
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a310b701ff2325541a3aa89c4f010e70
-      internalID: 293044508
+      spriteID: c261425d686ef14479d2569bcd75a62c
+      internalID: -1594564611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_14
+      name: character_shirt_2_green_14
       rect:
         serializedVersion: 2
         x: 224
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f0a9f07baab2ff45b391abb6ca838d3
-      internalID: 1172743127
+      spriteID: 1b23c1549622386409d97e891fae11ac
+      internalID: 622114677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_shoes1_15
+      name: character_shirt_2_green_15
       rect:
         serializedVersion: 2
         x: 240
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1d3ce7353f6c4543b640dfcf6c72605
-      internalID: 1246276283
+      spriteID: ec9bb9f39d11a6f44aca7418dbde1a4c
+      internalID: 1889000742
       vertices: []
       indices: 
       edges: []
@@ -450,22 +450,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_shoes1_4: 1500547282
-      character_shoes1_3: -2017406756
-      character_shoes1_6: 1944783658
-      character_shoes1_11: -570538262
-      character_shoes1_9: -1023452009
-      character_shoes1_8: 2123006083
-      character_shoes1_14: 1172743127
-      character_shoes1_1: 1860277845
-      character_shoes1_15: 1246276283
-      character_shoes1_12: 517301237
-      character_shoes1_5: 1939123168
-      character_shoes1_2: 1432473068
-      character_shoes1_10: 2076720473
-      character_shoes1_13: 293044508
-      character_shoes1_0: -955980598
-      character_shoes1_7: -657438007
+      character_shirt_2_green_0: 1781461802
+      character_shirt_2_green_12: 422852609
+      character_shirt_2_green_9: 872638190
+      character_shirt_2_green_3: 1311839026
+      character_shirt_2_green_7: 104776465
+      character_shirt_2_green_4: 2117669304
+      character_shirt_2_green_2: -1723835034
+      character_shirt_2_green_11: 1721871883
+      character_shirt_2_green_13: -1594564611
+      character_shirt_2_green_5: 242755902
+      character_shirt_2_green_1: -429462691
+      character_shirt_2_green_14: 622114677
+      character_shirt_2_green_8: -759677179
+      character_shirt_2_green_6: -779085800
+      character_shirt_2_green_15: 1889000742
+      character_shirt_2_green_10: -1859820917
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

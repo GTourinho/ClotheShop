@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: WalkRight
+    m_Hash: 1903684657
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shirt1_8
+      m_Hash: -543617443
+      m_Sprite: {fileID: -1106551418, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -98626597, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_9
+      m_Hash: -1466024245
+      m_Sprite: {fileID: 719295861, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2053584402, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_10
+      m_Hash: 807194671
+      m_Sprite: {fileID: 513577690, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1310954638, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_11
+      m_Hash: 1193009337
+      m_Sprite: {fileID: -1354715108, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1501254387, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 4
+  - m_Name: WalkUp
+    m_Hash: -1499434170
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shirt1_4
+      m_Hash: -701545866
+      m_Sprite: {fileID: -1613866900, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1394344894, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_5
+      m_Hash: -1591184672
+      m_Sprite: {fileID: -717803152, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 100779352, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_6
+      m_Hash: 941695834
+      m_Sprite: {fileID: -138873562, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2003970257, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_7
+      m_Hash: 1327895500
+      m_Sprite: {fileID: -372566175, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1138164331, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 4
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: character_shirt1_0
+      m_Hash: -784169361
+      m_Sprite: {fileID: 536460031, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 620244060, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_1
+      m_Hash: -1505380615
+      m_Sprite: {fileID: 353690445, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2082310520, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_2
+      m_Hash: 1062004547
+      m_Sprite: {fileID: 2003546178, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1929961453, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    - m_Name: character_shirt1_3
+      m_Hash: 1212930005
+      m_Sprite: {fileID: -593866289, guid: e89b6f9ebddc9eb4ba7f267e3fce1c05, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -493631317, guid: ab0907573b6585b4cb852bfba91d7654, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: f60920ce187dd8949bc654aa2cc5c270

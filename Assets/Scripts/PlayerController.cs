@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour, IShopCustomer
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public SpriteLibrary hairSpriteLibrary;
+    public SpriteLibrary shirtSpriteLibrary;
+    public SpriteLibrary pantSpriteLibrary;
+    public SpriteLibrary shoeSpriteLibrary;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     Vector2 movementInput;
     Animator animator;
@@ -22,6 +25,9 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         hairSpriteLibrary = this.transform.Find("hair").GetComponent<SpriteLibrary>();
+        pantSpriteLibrary = this.transform.Find("pants").GetComponent<SpriteLibrary>();
+        shirtSpriteLibrary = this.transform.Find("shirt").GetComponent<SpriteLibrary>();
+        shoeSpriteLibrary = this.transform.Find("shoes").GetComponent<SpriteLibrary>();
         
     }
 
@@ -93,11 +99,18 @@ public class PlayerController : MonoBehaviour, IShopCustomer
 
     public void BoughtItem(string itemName)
     {
-        Debug.Log("Bought "+itemName);
         SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
-        if(itemName == "Long Hair" || itemName == "Short Hair"){
-            
+        if(itemName == "Long Hair" || itemName == "Short Hair"){       
             hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        }
+        else if(itemName == "Blue Shorts" || itemName == "Pink Pants"){
+            pantSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        }
+        else if(itemName == "Orange Shirt" || itemName == "Green Shirt LS"){
+            shirtSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        }
+        else if(itemName == "Purple Shoes"){
+            shoeSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
         }
     }
 }
