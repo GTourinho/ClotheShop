@@ -29,9 +29,12 @@ public class UI_Shop : MonoBehaviour
         RectTransform itemRectTransform = itemTransform.GetComponent<RectTransform>();
         float itemHeight = 30f;
         itemRectTransform.anchoredPosition = new Vector2(0, -itemHeight * position);
-        itemRectTransform.Find("itemName").GetComponent<TextMeshProUGUI>().text = name;
-        itemRectTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();
-        itemRectTransform.Find("itemImage").GetComponent<Image>().sprite = sprite;
+        itemTransform.Find("itemName").GetComponent<TextMeshProUGUI>().text = name;
+        itemTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();
+        itemTransform.Find("itemImage").GetComponent<Image>().sprite = sprite;
+        itemTransform.GetComponent<Button>().onClick.AddListener(() => {
+            Debug.Log("Clicked on " + name);
+        });
     }
 
 }
