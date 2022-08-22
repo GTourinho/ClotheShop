@@ -450,7 +450,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_pant1_12: -795453059
+      character_pant1_14: -1730385771
       character_pant1_9: -628607453
       character_pant1_13: 110809801
       character_pant1_15: 1219501365
@@ -463,8 +463,8 @@ TextureImporter:
       character_pant1_5: 508085916
       character_pant1_7: 1066312361
       character_pant1_3: 1892949019
-      character_pant1_14: -1730385771
       character_pant1_4: 1690386136
+      character_pant1_12: -795453059
       character_pant1_2: 573981420
   spritePackingTag: 
   pSDRemoveMatte: 0

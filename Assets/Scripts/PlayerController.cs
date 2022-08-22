@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         Sprite usedShorts = Resources.Load<Sprite>("Icons/Used Shorts");
         Sprite usedShirt = Resources.Load<Sprite>("Icons/Used Shirt");
         Sprite usedShoes = Resources.Load<Sprite>("Icons/Used Shoes");
-        CreateItemButton(usedShorts, "Used Pants", 5, 0);
+        CreateItemButton(usedShorts, "Used Shorts", 5, 0);
         CreateItemButton(usedShirt, "Used Shirt", 5, 1);
         CreateItemButton(usedShoes, "Used Shoes", 5, 2);
     }
