@@ -20,16 +20,16 @@ public class UI_Shop : MonoBehaviour
 
     private void Start(){
 
-        Sprite longHair = Resources.Load<Sprite>("Icons/Long Hair");
-        Sprite shortHair = Resources.Load<Sprite>("Icons/Short Hair");
+        Sprite longHair = Resources.Load<Sprite>("Icons/Long Haircut");
+        Sprite shortHair = Resources.Load<Sprite>("Icons/Short Haircut");
         Sprite blueShorts = Resources.Load<Sprite>("Icons/Blue Shorts");
         Sprite pinkPants = Resources.Load<Sprite>("Icons/Pink Pants");
         Sprite orangeShirt = Resources.Load<Sprite>("Icons/Orange Shirt");
         Sprite greenShirtLS = Resources.Load<Sprite>("Icons/Green Shirt LS");
         Sprite purpleShoes = Resources.Load<Sprite>("Icons/Purple Shoes");
         
-        CreateItemButton(longHair, "Long Hair", 20, 0);
-        CreateItemButton(shortHair, "Short Hair", 15, 1);
+        CreateItemButton(longHair, "Long Haircut", 20, 0);
+        CreateItemButton(shortHair, "Short Haircut", 15, 1);
         CreateItemButton(blueShorts, "Blue Shorts", 35, 2);
         CreateItemButton(pinkPants, "Pink Pants", 30, 3);
         CreateItemButton(orangeShirt, "Orange Shirt", 25, 4);

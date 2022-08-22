@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ShopTriggerCollider : MonoBehaviour
 {
-
     [SerializeField] private UI_Shop shop;
+    
     private void OnTriggerEnter2D(Collider2D collider) {
         IShopCustomer customer = collider.GetComponent<IShopCustomer>();
         if(customer != null){
+            customer.showInventory();
             shop.Show(customer);
         }
     }
@@ -16,6 +17,7 @@ public class ShopTriggerCollider : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collider) {
         IShopCustomer customer = collider.GetComponent<IShopCustomer>();
         if(customer != null){
+            customer.hideInventory();
             shop.Hide();
         }
     }

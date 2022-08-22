@@ -4,10 +4,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.U2D.Animation;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour, IShopCustomer
 {
 
+    private int inventoryLength = 0;
+    private Transform container;
+    private Transform inventoryItemTemplate;
     TextMeshProUGUI moneyText;
     TextMeshProUGUI notEnoughMoneyTip;
     private int money = 150;
@@ -26,6 +30,14 @@ public class PlayerController : MonoBehaviour, IShopCustomer
     void Start()
     {
         
+        getVariableComponents();
+        
+        addUsedItemsToInventory();
+
+    }
+
+    private void getVariableComponents()
+    {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         hairSpriteLibrary = this.transform.Find("hair").GetComponent<SpriteLibrary>();
@@ -35,7 +47,89 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         moneyText = GameObject.Find("moneyText").GetComponent<TextMeshProUGUI>();
         notEnoughMoneyTip = GameObject.Find("notEnoughMoneyTip").GetComponent<TextMeshProUGUI>();
         notEnoughMoneyTip.gameObject.SetActive(false);
+        // Inventory
+        container = GameObject.Find("Canvas").transform.Find("inventory").transform;
+        inventoryItemTemplate = container.Find("inventoryItemTemplate");
+        inventoryItemTemplate.gameObject.SetActive(false);
+        container.gameObject.SetActive(false);
+    }
+    
+    private void addUsedItemsToInventory(){
+        Sprite usedShorts = Resources.Load<Sprite>("Icons/Used Shorts");
+        Sprite usedShirt = Resources.Load<Sprite>("Icons/Used Shirt");
+        Sprite usedShoes = Resources.Load<Sprite>("Icons/Used Shoes");
+        CreateItemButton(usedShorts, "Used Pants", 5, 0);
+        CreateItemButton(usedShirt, "Used Shirt", 5, 1);
+        CreateItemButton(usedShoes, "Used Shoes", 5, 2);
+    }
+    private void CreateItemButton(Sprite sprite, string name, int price, int position)
+    {
+
+        Transform itemTransform = Instantiate(inventoryItemTemplate, container);
+        itemTransform.gameObject.SetActive(true);
+        RectTransform itemRectTransform = itemTransform.GetComponent<RectTransform>();
+        float itemHeight = 100f;
+        itemRectTransform.anchoredPosition = new Vector2(0, -itemHeight * position);
+        itemTransform.Find("itemName").GetComponent<TextMeshProUGUI>().text = name;
+        itemTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();
+        itemTransform.Find("itemImage").GetComponent<Image>().sprite = sprite;
+        inventoryLength++;
+        itemTransform.GetComponent<Button>().onClick.AddListener(() => {
+            SellItem(name, price);
+        });
         
+    }
+    private void SellItem(string name, int price)
+    {
+        money += price;
+        moneyText.text = "$"+money.ToString();
+        inventoryLength--;
+        killItemTemplate(name);
+    }
+
+    private void killItemTemplate(string name)
+    {
+        foreach (Transform child in container)
+        {
+            int index = child.GetSiblingIndex();
+            foreach(Transform grandChild in child)
+            {
+                if (grandChild.name == "itemName")
+                {
+                    if (grandChild.GetComponent<TextMeshProUGUI>().text == name)
+                    {
+                        Destroy(child.gameObject);
+                        rearrangeInventory(index - 1);
+                        unequipIfEquiped(name);
+                        return;
+                    }
+                }
+            }
+        }
+    }
+    private void unequipIfEquiped(string name){
+        if(pantSpriteLibrary.spriteLibraryAsset.name == name){
+            pantSpriteLibrary.spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/Naked Pants");
+        }
+        else if(shirtSpriteLibrary.spriteLibraryAsset.name == name){
+            shirtSpriteLibrary.spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/Naked Shirt");;
+        }
+        else if(shoeSpriteLibrary.spriteLibraryAsset.name == name){
+            shoeSpriteLibrary.spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/Naked Shoes");;
+        }
+    }
+
+    private void rearrangeInventory(int index)
+    {
+        foreach (Transform child in container)
+        {
+            int newIndex = child.GetSiblingIndex();
+            if (newIndex > index)
+            {
+                RectTransform childRectTransform = child.GetComponent<RectTransform>();
+                childRectTransform.anchoredPosition = new Vector2(0, -100 * (newIndex - 2));
+            }
+        }
     }
 
     private void FixedUpdate() {
@@ -111,11 +205,13 @@ public class PlayerController : MonoBehaviour, IShopCustomer
 
     public void TryBuyItem(string itemName, int itemPrice){
         if(money >= itemPrice){
+            Sprite itemSprite = Resources.Load<Sprite>("Icons/"+itemName);
             money -= itemPrice;
             moneyText.text = "$" + money;
             SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
-            if(itemName == "Long Hair" || itemName == "Short Hair"){       
+            if(itemName == "Long Haircut" || itemName == "Short Haircut"){       
                 hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+                return;
             }
             else if(itemName == "Blue Shorts" || itemName == "Pink Pants"){
                 pantSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
@@ -126,14 +222,24 @@ public class PlayerController : MonoBehaviour, IShopCustomer
             else if(itemName == "Purple Shoes"){
                 shoeSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
             }
+            int sellPrice = itemPrice - itemPrice / 3;
+            CreateItemButton(itemSprite, itemName, sellPrice, inventoryLength);
         }
         else{
             notEnoughMoneyTip.gameObject.SetActive(true);
-            StartCoroutine(changeBackMoneyText());  
+            StartCoroutine(clearNotEnoughMoneyTip());  
         }
     }
-    public IEnumerator changeBackMoneyText(){
+    public IEnumerator clearNotEnoughMoneyTip(){
         yield return new WaitForSeconds (2);
         notEnoughMoneyTip.gameObject.SetActive(false);
+    }
+
+    public void showInventory(){
+        container.gameObject.SetActive(true);
+    }
+
+    public void hideInventory(){
+        container.gameObject.SetActive(false);
     }
 }

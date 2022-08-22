@@ -6,6 +6,7 @@ public interface IShopCustomer
 {
 
     void BoughtItem(string itemName, int itemPrice);
-
+    void showInventory();
+    void hideInventory();
 
 }
