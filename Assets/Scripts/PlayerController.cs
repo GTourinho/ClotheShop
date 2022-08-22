@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.U2D.Animation;
@@ -7,6 +8,7 @@ using UnityEngine.U2D.Animation;
 public class PlayerController : MonoBehaviour, IShopCustomer
 {
 
+    private int money = 150;
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
@@ -97,20 +99,32 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         movementInput = value.Get<Vector2>();
     }
 
-    public void BoughtItem(string itemName)
+    public void BoughtItem(string itemName, int itemPrice)
     {
-        SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
-        if(itemName == "Long Hair" || itemName == "Short Hair"){       
-            hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        TryBuyItem(itemName, itemPrice);
+    }
+
+    public void TryBuyItem(string itemName, int itemPrice){
+        if(money >= itemPrice){
+            money -= itemPrice;
+            TextMeshProUGUI moneyText = GameObject.Find("moneyText").GetComponent<TextMeshProUGUI>();
+            moneyText.text = "$" + money;
+            SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
+            if(itemName == "Long Hair" || itemName == "Short Hair"){       
+                hairSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+            }
+            else if(itemName == "Blue Shorts" || itemName == "Pink Pants"){
+                pantSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+            }
+            else if(itemName == "Orange Shirt" || itemName == "Green Shirt LS"){
+                shirtSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+            }
+            else if(itemName == "Purple Shoes"){
+                shoeSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+            }
         }
-        else if(itemName == "Blue Shorts" || itemName == "Pink Pants"){
-            pantSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
-        }
-        else if(itemName == "Orange Shirt" || itemName == "Green Shirt LS"){
-            shirtSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
-        }
-        else if(itemName == "Purple Shoes"){
-            shoeSpriteLibrary.spriteLibraryAsset = spriteLibraryAsset;
+        else{
+            Debug.Log("Not enough money");
         }
     }
 }

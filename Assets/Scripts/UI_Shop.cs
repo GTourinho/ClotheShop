@@ -50,14 +50,14 @@ public class UI_Shop : MonoBehaviour
         itemTransform.Find("itemPrice").GetComponent<TextMeshProUGUI>().text = "$"+price.ToString();
         itemTransform.Find("itemImage").GetComponent<Image>().sprite = sprite;
         itemTransform.GetComponent<Button>().onClick.AddListener(() => {
-            TryBuyItem(name);
+            TryBuyItem(name, price);
         });
         
     }
 
-    private void TryBuyItem(string name)
+    private void TryBuyItem(string name, int price)
     {
-        customer.BoughtItem(name);
+        customer.BoughtItem(name, price);
     }
 
     public void Show(IShopCustomer customer)

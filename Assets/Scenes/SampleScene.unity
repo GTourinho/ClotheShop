@@ -6567,6 +6567,10 @@ PrefabInstance:
       propertyPath: movementFilter.layerMask.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1821658389478630340, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_Name
+      value: moneyText
+      objectReference: {fileID: 0}
     - target: {fileID: 1838523923480101378, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6610,6 +6614,18 @@ PrefabInstance:
     - target: {fileID: 7324442376632373419, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_Name
       value: shirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426042779439507726, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_text
+      value: $150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426042779439507726, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426042779439507726, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8652158690062583970, guid: b04d3d2ba4cf86c4a9ac680ced70a403, type: 3}
       propertyPath: m_SpriteKey

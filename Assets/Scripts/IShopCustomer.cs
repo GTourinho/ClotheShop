@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IShopCustomer
 {
 
-    void BoughtItem(string itemName);
+    void BoughtItem(string itemName, int itemPrice);
 
 
 }
