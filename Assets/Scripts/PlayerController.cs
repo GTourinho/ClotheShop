@@ -8,6 +8,8 @@ using UnityEngine.U2D.Animation;
 public class PlayerController : MonoBehaviour, IShopCustomer
 {
 
+    TextMeshProUGUI moneyText;
+    TextMeshProUGUI notEnoughMoneyTip;
     private int money = 150;
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
@@ -30,6 +32,9 @@ public class PlayerController : MonoBehaviour, IShopCustomer
         pantSpriteLibrary = this.transform.Find("pants").GetComponent<SpriteLibrary>();
         shirtSpriteLibrary = this.transform.Find("shirt").GetComponent<SpriteLibrary>();
         shoeSpriteLibrary = this.transform.Find("shoes").GetComponent<SpriteLibrary>();
+        moneyText = GameObject.Find("moneyText").GetComponent<TextMeshProUGUI>();
+        notEnoughMoneyTip = GameObject.Find("notEnoughMoneyTip").GetComponent<TextMeshProUGUI>();
+        notEnoughMoneyTip.gameObject.SetActive(false);
         
     }
 
@@ -107,7 +112,6 @@ public class PlayerController : MonoBehaviour, IShopCustomer
     public void TryBuyItem(string itemName, int itemPrice){
         if(money >= itemPrice){
             money -= itemPrice;
-            TextMeshProUGUI moneyText = GameObject.Find("moneyText").GetComponent<TextMeshProUGUI>();
             moneyText.text = "$" + money;
             SpriteLibraryAsset spriteLibraryAsset = Resources.Load<SpriteLibraryAsset>("SpriteLib/"+itemName);
             if(itemName == "Long Hair" || itemName == "Short Hair"){       
@@ -124,7 +128,12 @@ public class PlayerController : MonoBehaviour, IShopCustomer
             }
         }
         else{
-            Debug.Log("Not enough money");
+            notEnoughMoneyTip.gameObject.SetActive(true);
+            StartCoroutine(changeBackMoneyText());  
         }
+    }
+    public IEnumerator changeBackMoneyText(){
+        yield return new WaitForSeconds (2);
+        notEnoughMoneyTip.gameObject.SetActive(false);
     }
 }
