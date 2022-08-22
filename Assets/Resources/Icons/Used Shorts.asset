@@ -6,15 +6,15 @@ Sprite:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Short Hair
+  m_Name: Used Shorts
   m_Rect:
     serializedVersion: 2
-    x: 0
-    y: 17
-    width: 16
-    height: 15
+    x: 18
+    y: 4
+    width: 12
+    height: 10
   m_Offset: {x: 0, y: 0}
-  m_Border: {x: 0, y: 15, z: 0, w: 0}
+  m_Border: {x: 2, y: 0, z: 2, w: 10}
   m_PixelsToUnits: 100
   m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
@@ -22,12 +22,12 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    36b77e24b5b9ddc4e965b92142d83a92: 1579595040
+    feb858360fdbfa3458cb78ec1d0569f3: -826962172
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    texture: {fileID: 2800000, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -103,22 +103,22 @@ Sprite:
         format: 10
         dimension: 4
       m_DataSize: 208
-      _typelessdata: 0ad7a3bd9a99993d000000000ad7a33d9a99993d000000000ad7a3bd9a9999bd000000000ad7a33d9a9999bd00000000000000000000803f0000803f000000000000000000000000000000000000000000000000000000000000803d0000803f0000803f00000000000000000000000000000000000000000000000000000000000000000000083f0000803f000000000000000000000000000000000000000000000000000000000000803d0000083f0000803f00000000000000000000000000000000000000000000000000000000
+      _typelessdata: 8fc275bdcdcc4c3d000000008fc2753dcdcc4c3d000000008fc275bdcdcc4cbd000000008fc2753dcdcc4cbd000000000000903d0000e03e0000803f000000000000000000000000000000000000000000000000000000000000f03d0000e03e0000803f000000000000000000000000000000000000000000000000000000000000903d0000003e0000803f000000000000000000000000000000000000000000000000000000000000f03d0000003e0000803f00000000000000000000000000000000000000000000000000000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 0
-      y: 17
-      width: 16
-      height: 15
+      x: 18
+      y: 4
+      width: 12
+      height: 10
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 8, z: 100, w: 24.5}
+    uvTransform: {x: 100, y: 24, z: 100, w: 9}
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 36b77e24b5b9ddc4e965b92142d83a92, type: 3}
+    texture: {fileID: 2800000, guid: feb858360fdbfa3458cb78ec1d0569f3, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -194,26 +194,25 @@ Sprite:
         format: 10
         dimension: 4
       m_DataSize: 208
-      _typelessdata: 0ad7a3bd9a99993d000000000ad7a33d9a99993d000000000ad7a3bd9a9999bd000000000ad7a33d9a9999bd00000000000000000000803f0000803f000000000000000000000000000000000000000000000000000000000000803d0000803f0000803f00000000000000000000000000000000000000000000000000000000000000000000083f0000803f000000000000000000000000000000000000000000000000000000000000803d0000083f0000803f00000000000000000000000000000000000000000000000000000000
+      _typelessdata: 8fc275bdcdcc4c3d000000008fc2753dcdcc4c3d000000008fc275bdcdcc4cbd000000008fc2753dcdcc4cbd000000000000903d0000e03e0000803f000000000000000000000000000000000000000000000000000000000000f03d0000e03e0000803f000000000000000000000000000000000000000000000000000000000000903d0000003e0000803f000000000000000000000000000000000000000000000000000000000000f03d0000003e0000803f00000000000000000000000000000000000000000000000000000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 0
-      y: 17
-      width: 16
-      height: 15
+      x: 18
+      y: 4
+      width: 12
+      height: 10
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 8, z: 100, w: 24.5}
+    uvTransform: {x: 100, y: 24, z: 100, w: 9}
     downscaleMultiplier: 1
   m_PhysicsShape:
-  - - {x: -0.03, y: 0.074999996}
-    - {x: -0.08, y: 0.035}
-    - {x: -0.08, y: -0.044999998}
-    - {x: 0.06, y: -0.044999998}
-    - {x: 0.08, y: -0.015}
-    - {x: 0.08, y: 0.024999999}
-    - {x: 0.03, y: 0.074999996}
+  - - {x: -0.06, y: 0.04}
+    - {x: -0.06, y: -0.049999997}
+    - {x: 0.049999997, y: -0.049999997}
+    - {x: 0.06, y: -0.03}
+    - {x: 0.06, y: 0.02}
+    - {x: 0.04, y: 0.04}
   m_Bones: []
-  m_SpriteID: ef235fa06f6d1bd4c881cf23c8e24919
+  m_SpriteID: f8a6f7f6e977baa4e9ef48eefff9e6e0
